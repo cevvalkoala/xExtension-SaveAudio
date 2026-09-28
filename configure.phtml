@@ -1,0 +1,32 @@
+<?php
+declare(strict_types=1);
+/*
+ * Settings page of the Save Audio extension.
+ * Inside this file, $this is the SaveAudioExtension instance.
+ */
+?>
+<form action="<?= _url('extension', 'configure', 'e', urlencode($this->getName())) ?>" method="post">
+	<input type="hidden" name="_csrf" value="<?= FreshRSS_Auth::csrfToken() ?>" />
+
+	<div class="form-group">
+		<div class="group-controls">
+			<label class="checkbox" for="saveaudio_mark_as_read">
+				<input
+					type="checkbox"
+					name="saveaudio_mark_as_read"
+					id="saveaudio_mark_as_read"
+					value="1"
+					<?= $this->isMarkAsReadEnabled() ? 'checked="checked"' : '' ?>
+				/>
+				Mark article as read upon downloading the audio file
+			</label>
+		</div>
+	</div>
+
+	<div class="form-group form-actions">
+		<div class="group-controls">
+			<button type="submit" class="btn btn-important">Save</button>
+			<button type="reset" class="btn">Cancel</button>
+		</div>
+	</div>
+</form>
