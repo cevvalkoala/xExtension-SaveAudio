@@ -1,8 +1,0 @@
-{
-	"name": "Save Audio",
-	"author": "CevvalKoala",
-	"description": "Adds a save-audio button to the headline bar of articles that contain an audio file. The file is saved as 'Feed Name-Article Name' with its original extension. Optionally marks the article as read.",
-	"version": "1.0.0",
-	"entrypoint": "SaveAudio",
-	"type": "user"
-}
