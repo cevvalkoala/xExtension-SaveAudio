@@ -7,7 +7,7 @@ I don't know much about FreshRSS extensions and I'm just a novice with PHP. So, 
 I understand most people have reservations about using slopcoded applications. Still, feel free to analyze, use, debug, revise, or otherwise comment on the code. The code is yours, hoping it will make your RSS setup a bit more useful.
 
 ## What it does
-I'm an old school podcast listener and say, you're like me and subscribed to the RSS feeds of many podcasts. Say, you  to download the audio files of the episodes. You'll see a down arrow on the headline bar, and clicking it will automatically start the download process on your browser. The arrow will not appear if the article does not contain any audio file.
+I'm an old school podcast listener and say, you're like me and subscribed to the RSS feeds of many podcasts. Say, you want to download the audio files of the episodes. You'll see a down arrow on the headline bar, and clicking it will automatically start the download process on your browser. The arrow will not appear if the article does not contain any audio file.
 
 ## Installation
 Assuming you already have a running FreshRSS instance, installing the extension is just about dropping its folder into FreshRSS's `extensions/` directory and enabling it from the web UI.
